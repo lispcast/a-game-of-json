@@ -2,7 +2,7 @@
 
 A Clojure exploration of *Game of Thrones* character data.
 
-This code was used in the *A Game of JSON* lesson in the
+This code was used in the [*A Game of JSON*](https://purelyfunctional.tv/lesson/a-game-of-json/#code) lesson in the
 [*PurelyFunctional.tv Online Mentoring*][ment] program.
 
 [ment]: http://www.purelyfunctional.tv/
