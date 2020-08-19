@@ -1,11 +1,11 @@
 (ns a-game-of-json.core
   (:require [cheshire.core :as json]))
 
-(defonce books-raw (slurp "https://raw.githubusercontent.com/joakimskoog/AnApiOfIceAndFire/master/AnApiOfIceAndFire.Data.Feeder/Data/books.json"))
+(defonce books-raw (slurp "https://raw.githubusercontent.com/joakimskoog/AnApiOfIceAndFire/master/data/books.json"))
 
-(defonce characters-raw (slurp "https://raw.githubusercontent.com/joakimskoog/AnApiOfIceAndFire/master/AnApiOfIceAndFire.Data.Feeder/Data/characters.json"))
+(defonce characters-raw (slurp "https://raw.githubusercontent.com/joakimskoog/AnApiOfIceAndFire/master/data/characters.json"))
 
-(defonce houses-raw (slurp "https://raw.githubusercontent.com/joakimskoog/AnApiOfIceAndFire/master/AnApiOfIceAndFire.Data.Feeder/Data/houses.json"))
+(defonce houses-raw (slurp "https://raw.githubusercontent.com/joakimskoog/AnApiOfIceAndFire/master/data/houses.json"))
 
 (defonce books-json (json/parse-string books-raw))
 
